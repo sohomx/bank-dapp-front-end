@@ -216,7 +216,7 @@ function App() {
     getBankName();
     getbankOwnerHandler();
     customerBalanceHanlder();
-  }, [isWalletConnected]);
+  }, [isWalletConnected, customerBalanceHanlder, getBankName, getbankOwnerHandler]);
 
   return (
     <main className="main-container">
